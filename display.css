@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(211, 208, 127);
+}
+
+h1{
+    font-size: medium;
+}
+
+.container div{
+    border: 1px rgb(214, 67, 94) solid;
+    padding: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.basic-grid{
+    display: grid;
+    gap:2px;
+
+    grid-template-columns: repeat(auto-fill,minmax(240px,300px));
+}

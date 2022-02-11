@@ -20,6 +20,16 @@ h1{
 .basic-grid{
     display: grid;
     gap:2px;
+    grid-template-columns: 1fr 8fr 1fr;
+    /*grid-template-columns: repeat(auto-fill,minmax(240px,2000px));*/
+}
 
-    grid-template-columns: repeat(auto-fill,minmax(240px,300px));
+.basic-grid div{
+    height: 50px;
+}
+
+.mainarea{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1400px));
 }
